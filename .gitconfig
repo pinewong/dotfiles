@@ -1,0 +1,9 @@
+[user]
+	name = PineWong
+	email = pinewong@163.com
+[core]
+  editor = vim
+[color]
+  ui = auto
+[alias]
+lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"

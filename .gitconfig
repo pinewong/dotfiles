@@ -1,5 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [user]
-  name = PineWong
+  name = 黄松
   email = pinewong@163.com
 [core]
   editor = vim
